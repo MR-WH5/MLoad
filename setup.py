@@ -58,40 +58,25 @@ def b():
 	    os.system('clear')
 def c():
 	os.system('clear')
-	os.system(H+'''pkg update && pkg upgrade && pkg install git curl wget nmap -y'''+H)
-	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
-	    os.system('curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh')
+	    os.system(H+'''pkg update && pkg upgrade && pkg install git curl wget nmap -y && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh'''+H)
 	else :
-	    os.system('clear')
-	print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	print('See you next time, Bye.')
-	z()	
+	    os.system('clear')	
 def d():
 	os.system('clear')
-	os.system(H+'''pkg update -y && pkg upgrade -y && pkg install curl wget git -y'''+H)
-	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
-	    os.system('git clone github.com/verluchie/termux-metasploit && chmod 777 termux-metasploit/install.sh && sh termux-metasploit/install.sh')
+	    os.system(H+'''pkg update -y && pkg upgrade -y && pkg install curl wget git -y && git clone github.com/verluchie/termux-metasploit && chmod 777 termux-metasploit/install.sh && sh termux-metasploit/install.sh'''+H)
 	else :
 	    os.system('clear')
-	print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	print('See you next time, Bye.')
-	z()
 def e():
 	os.system('clear')
-	os.system(H+'''apt update -y && apt upgrade -y && apt install curl -y'''+H)
-	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
-	    os.system('curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && chmod 777 metasploit.sh && sh metasploit.sh')
+	    os.system(H+'''apt update -y && apt upgrade -y && apt install curl -y && curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && chmod 777 metasploit.sh && sh metasploit.sh'''+H)
 	else :
 	    os.system('clear')
-	print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	print('See you next time, Bye.')
-	z()	
 def f():
     os.system("xdg-open https://www.youtube.com/channel/UCmiZfr9dgRCkwHa_GXSa97A/")
 	
