@@ -44,9 +44,6 @@ def heads():
 	"""+E
 def a():
         os.system(H+'''pkg update -y && pkg upgrade -y && pkg install unstable-repo -y'''+H)
-	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
-	if soal == 'y':
-	    os.system(H+'''pkg update -y && pkg upgrade -y && pkg install unstable-repo -y && pkg install metasploit'''+H)
 def b():
 	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
