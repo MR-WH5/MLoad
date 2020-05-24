@@ -49,8 +49,6 @@ def a():
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
 	    os.system('apt install metasploit')
-            print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	    print('See you next time, Bye.')
 	    z()
 	else :
 	    os.system('clear')
@@ -61,8 +59,6 @@ def b():
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
 	    os.system('gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install')
-            print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	    print('See you next time, Bye.')
 	    z()
 	else :
 	    os.system('clear')
