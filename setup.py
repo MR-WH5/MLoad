@@ -43,35 +43,15 @@ def heads():
 ╚════ .:: For Android 5.0 + ::. ═══════╝
 	"""+E
 def a():
-        os.system('pkg update -y && pkg upgrade -y && pkg install unstable-repo -y')
+        os.system('pkg update -y && pkg upgrade -y && pkg install unstable-repo -y && apt install metasploit')
 def b():
-	os.system('clear')
-	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
-	if soal == 'y':
-	    os.system(H+'''curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz && gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install'''+H)
-	else :
-	    os.system('clear')
+	os.system('curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz && gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install')
 def c():
-	os.system('clear')
-	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
-	if soal == 'y':
-	    os.system(H+'''pkg update && pkg upgrade && pkg install git curl wget nmap -y && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh'''+H)
-	else :
-	    os.system('clear')	
+	os.system('pkg update && pkg upgrade && pkg install git curl wget nmap -y && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh')
 def d():
-	os.system('clear')
-	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
-	if soal == 'y':
-	    os.system(H+'''pkg update -y && pkg upgrade -y && pkg install curl wget git -y && git clone github.com/verluchie/termux-metasploit && chmod 777 termux-metasploit/install.sh && sh termux-metasploit/install.sh'''+H)
-	else :
-	    os.system('clear')
+	os.system('pkg update -y && pkg upgrade -y && pkg install curl wget git -y && git clone github.com/verluchie/termux-metasploit && chmod 777 termux-metasploit/install.sh && sh termux-metasploit/install.sh')
 def e():
-	os.system('clear')
-	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
-	if soal == 'y':
-	    os.system(H+'''apt update -y && apt upgrade -y && apt install curl -y && curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && chmod 777 metasploit.sh && sh metasploit.sh'''+H)
-	else :
-	    os.system('clear')
+	os.system('apt update -y && apt upgrade -y && apt install curl -y && curl -LO raw.githubusercontent.com/1Tech-X/Metasploit-4.16.12/master/metasploit.sh && chmod 777 metasploit.sh && sh metasploit.sh')
 def f():
     os.system("xdg-open https://www.youtube.com/channel/UCmiZfr9dgRCkwHa_GXSa97A/")
 	
