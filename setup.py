@@ -69,6 +69,8 @@ def Main_Menu():
  1). Android 5.0 + (For older Androids, click enter for a solution.)
  2). TermuX (Downloaded from Google Play or Play Store)
  3). About 500MB of internal storage (for properly installing Metasploit)
+ 
+ WARNING : jika error, silahkan pilih menu yang lain :
 
  '''+F+'''Download Metasploit Dari :
  '''+G+'''1]'''+W+''' Original Termux For Android 7.0+
