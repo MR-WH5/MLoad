@@ -49,7 +49,6 @@ def a():
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
 	    os.system('apt install metasploit')
-	    z()
 	else :
 	    os.system('clear')
 def b():
