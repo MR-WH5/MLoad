@@ -43,7 +43,6 @@ def heads():
 ╚════ .:: For Android 5.0 + ::. ═══════╝
 	"""+E
 def a():
-	os.system('clear')
         os.system(H+'''pkg update -y && pkg upgrade -y && pkg install unstable-repo -y'''+H)
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
