@@ -49,11 +49,11 @@ def a():
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
 	    os.system('apt install metasploit')
+            print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
+	    print('See you next time, Bye.')
+	    z()
 	else :
 	    os.system('clear')
-	print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	print('See you next time, Bye.')
-	z()	
 def b():
 	os.system('clear')
 	os.system(H+'''curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz'''+H)
@@ -61,11 +61,11 @@ def b():
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
 	    os.system('gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install')
+            print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
+	    print('See you next time, Bye.')
+	    z()
 	else :
 	    os.system('clear')
-	print('Im Sadewa, dont forget to follow My Facebook Sadewa Dewa')
-	print('See you next time, Bye.')
-	z()
 def c():
 	os.system('clear')
 	os.system(H+'''pkg update && pkg upgrade && pkg install git curl wget nmap -y'''+H)
