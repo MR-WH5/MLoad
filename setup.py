@@ -44,21 +44,16 @@ def heads():
 	"""+E
 def a():
 	os.system('clear')
-	os.system(H+'''apt update -y && apt upgrade -y && apt install unstable-repo -y'''+H)
-	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
-	    os.system('apt install metasploit')
+	    os.system(H+'''apt update -y && apt upgrade -y && apt install unstable-repo -y && apt install metasploit'''+H)
 	else :
 	    os.system('clear')
 def b():
 	os.system('clear')
-	os.system(H+'''curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz'''+H)
-	os.system('clear')
 	soal = input("The Metasploit-Framework installation will begin, continued [y/n] ?")
 	if soal == 'y':
-	    os.system('gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install')
-	    z()
+	    os.system(H+'''curl -LO https://github.com/termux/termux-packages/files/3995119/metasploit_5.0.65-1_all.deb.gz && gunzip metasploit_5.0.65-1_all.deb.gz && dpkg -i metasploit_5.0.65-1_all.deb && apt -f install'''+H)
 	else :
 	    os.system('clear')
 def c():
